@@ -1,0 +1,134 @@
+:root {
+    box-sizing: border-box;
+    --warm-clr1: #F72633;
+    --warm-clr2: #FC9F43;
+    --cool-clr1: #0E66DC;
+    --cool-clr2: #2BF7E9;
+    --light-clr: #787D80;
+    --dark-clr: #242627;
+    --bubble: #ffede0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(163, 163, 167, 0.95);
+    display: flex;
+}
+
+.part1 {
+    height: 100%;
+    width: 26%;
+}
+
+.part2 {
+    height: 100%;
+    width: 67%;
+    background-color: royalblue;
+    background-image: url(https://images.unsplash.com/photo-1622519407650-3df9883f76a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80);
+    background-size: cover;
+    background-position: top;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(155, 153, 177, 0.353);
+}
+
+.part3 {
+    height: 100%;
+    width: 7%;
+    /* background-color: crimson; */
+}
+
+.text-div{
+    position: absolute;
+    width: 400px;
+    left: 13%;
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+
+.text-div>h1{
+    font-size: 6em;
+    font-weight: 900;
+    letter-spacing: 5px;
+    line-height: 80px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.small-img{
+    height: 400px;
+    width: 300px;
+    background-image: url(https://images.unsplash.com/photo-1619603364937-8d7af41ef206?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0%,-50%);
+}
+
+.overlay-3{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(155, 153, 177, 0.397);
+}
+
+.vertical-text{
+    position: absolute;
+    top: 0%;
+    right: -43%;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+
+}
+
+.vertical-text h1{
+    text-transform: uppercase;
+    font-size: 2.8em;
+    font-weight: 900;
+    letter-spacing: 15px;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.nav-bar{
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 18.8em;
+}
+
+.nav-bar img{
+    height: 60px; 
+}
+
+.nav-bar h5{
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+
